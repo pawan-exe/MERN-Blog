@@ -8,4 +8,9 @@ body {
 
 .ql-editor {
     font-size: 1.05rem;
+    color: rgb(133, 130, 130);
 }
+
+/* .element.style {
+    color: rgb(133, 130, 130);
+} */
