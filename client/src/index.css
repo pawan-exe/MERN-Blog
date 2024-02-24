@@ -41,9 +41,9 @@ body {
     color: #00FFFF !important;
 }
 
-/* 
-.dark .post-content {
-    color: white;
+
+/* .dark .post-content {
+    color: white !important;
 } */
 
 .post-content a:hover {
