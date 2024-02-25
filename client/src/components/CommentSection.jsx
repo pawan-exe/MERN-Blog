@@ -88,7 +88,7 @@ export default function CommentSection({ postId }) {
   const handleEdit = async (comment, editedComment) => {
     setComments(
       comments.map((c) =>
-        c.id === comment.id ? { ...c, content: editedComment } : c
+        c._id === comment._id ? { ...c, content: editedComment } : c
       )
     );
   };
