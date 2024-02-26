@@ -11,18 +11,18 @@ export default function CallToAction() {
         <p className="text-gray-500 my-2">
           Explore My Portfolio for Creative Inspirations!
         </p>
-        <Button
-          gradientDuoTone="purpleToPink"
-          className="rounded-tl-xl rounded-bl-none"
+        <a
+          href="https://my-portfolio-pvg.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
         >
-          <a
-            href="https://my-portfolio-pvg.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+          <Button
+            gradientDuoTone="purpleToPink"
+            className="rounded-tl-xl rounded-bl-none w-full"
           >
             Explore Portfolio
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
       <div className="p-7 flex-1">
         <img
