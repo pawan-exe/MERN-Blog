@@ -8,27 +8,36 @@ body {
 
 .ql-editor {
     font-size: 1.05rem;
-    color: rgb(133, 130, 130);
 }
 
-/* .element.style {
-    color: rgb(133, 130, 130);
-} */
 
 .post-content p {
     margin-bottom: 0.5rem;
+    text-align: justify;
+}
+
+.post-content p .ql-size-huge {
+    font-size: 42px;
+}
+
+.post-content p .ql-size-large {
+    font-size: 25.2px;
+}
+
+.post-content p .ql-size-small {
+    font-size: 12.6px;
 }
 
 .post-content h1 {
-    font-size: 1.5rem;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    font-family: sans-serif !important;
     margin: 1.5rem 0;
 }
 
 .post-content h2 {
-    font-size: 1.4rem;
-    font-family: sans-serif;
+    font-size: 1.4rem !important;
+    font-family: sans-serif !important;
     margin: 1.5rem 0;
 }
 
@@ -41,6 +50,26 @@ body {
     color: #00FFFF !important;
 }
 
+pre {
+    background-color: rgb(30, 41, 59);
+    padding: 10px 20px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(61, 69, 83);
+    border-radius: 0.5rem;
+    color: rgb(232, 231, 231);
+    white-space: pre-wrap;
+    margin-bottom: 0.5rem;
+}
+
+
+.dark .post-content code {
+    background-color: rgb(30, 41, 59) !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(61, 69, 83) !important;
+
+}
 
 /* .dark .post-content {
     color: white !important;
@@ -48,4 +77,21 @@ body {
 
 .post-content a:hover {
     text-decoration: underline;
+}
+
+.dark .ql-fill {
+    fill: white;
+}
+
+
+.dark .ql-snow .ql-stroke {
+    stroke: white;
+}
+
+.dark .ql-snow .ql-picker-label {
+    color: white;
+}
+
+.dark .ql-editor p {
+    color: white;
 }

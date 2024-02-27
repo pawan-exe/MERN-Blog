@@ -83,6 +83,30 @@ export default function CreatePost() {
     }
   };
 
+  var toolbarOptions = [
+    ["bold", "italic", "underline", "strike"], // toggled buttons
+    ["blockquote", "code-block"],
+    ["link", "image"],
+
+    [{ header: 1 }, { header: 2 }], // custom button values
+    [{ list: "ordered" }, { list: "bullet" }, { list: "check" }],
+    [{ script: "sub" }, { script: "super" }], // superscript/subscript
+    [{ indent: "-1" }, { indent: "+1" }], // outdent/indent
+    // text direction
+
+    [{ size: ["small", false, "large", "huge"] }], // custom dropdown
+    [{ header: [1, 2, 3, 4, 5, 6, false] }],
+
+    [{ color: [] }, { background: [] }], // dropdown with defaults from theme
+    [{ font: [] }],
+    [{ align: [] }],
+
+    ["clean"],
+  ];
+  const module = {
+    toolbar: toolbarOptions,
+  };
+
   return (
     <div className="p-3 max-w-3xl mx-auto min-h-screen">
       <h1 className="text-center text-3xl my-7 font-semibold">Create a post</h1>
@@ -145,10 +169,12 @@ export default function CreatePost() {
           />
         )}
         <ReactQuill
+          modules={module}
           theme="snow"
           placeholder="Write something..."
           className="h-72 mb-12"
           required
+          value={formData.content}
           onChange={(value) => {
             setFormData({ ...formData, content: value });
           }}
