@@ -30,11 +30,11 @@ export default function FooterCom() {
               <Footer.Title title="About" />
               <Footer.LinkGroup col>
                 <Footer.Link
-                  href="https://www.linkedin.com/in/pawankumar-gupta-59a61b247/"
+                  href="https://my-portfolio-pvg.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  100 JS Projects
+                  My Projects
                 </Footer.Link>
                 <Footer.Link
                   href="/about"
