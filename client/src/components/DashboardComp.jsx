@@ -21,8 +21,6 @@ export default function DashboardComp() {
   const [lastMonthComments, setLastMonthComments] = useState(0);
   const { currentUser } = useSelector((state) => state.user);
 
-  console.log(totalUsers, totalComments, totalPosts);
-
   useEffect(() => {
     const fetchUsers = async () => {
       try {
