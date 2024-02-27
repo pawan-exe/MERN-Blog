@@ -106,6 +106,7 @@ export default function CreatePost() {
             <option value="uncategorized">Select a category</option>
             <option value="javascript">Javascript</option>
             <option value="reactjs">React.js</option>
+            <option value="angularjs">Angular.js</option>
             <option value="nextjs">Next.js</option>
           </Select>
         </div>

@@ -50,14 +50,12 @@ export default function Header() {
 
   return (
     <Navbar className="border-b-2">
-      <Link
-        to="/"
-        className="self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white"
-      >
-        <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-          Pawan's
-        </span>
-        Blog
+      <Link to="/">
+        <img
+          className="w-20 h-9 sm:w-28 sm:h-11 rounded-md"
+          src="./src/assets/logo.png"
+          alt="logo"
+        />
       </Link>
 
       <form onSubmit={handleSubmit}>
@@ -79,7 +77,7 @@ export default function Header() {
 
       <div className="flex gap-2 md:order-2">
         <Button
-          className="w-12 h-10 hidden sm:inline"
+          className="w-12 h-10 inline"
           color="gray"
           pill
           onClick={() => dispatch(toggleTheme())}

@@ -15,14 +15,12 @@ export default function FooterCom() {
       <div className="w-full max-w-7xl mx-auto">
         <div className="grid w-full justify-between sm:flex md:grid-cols-1">
           <div className="mt-5">
-            <Link
-              to="/"
-              className="self-center whitespace-nowrap text-lg sm:text-xl font-semibold dark:text-white"
-            >
-              <span className="px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white">
-                Pawan's
-              </span>
-              Blog
+            <Link to="/">
+              <img
+                className="w-32 h-18  rounded-md"
+                src="./src/assets/logo.png"
+                alt="logo"
+              />
             </Link>
           </div>
           <div className="grid grid-cols-2 gap-8  mt-4 sm:grid-cols-3 sm:gap-6">
