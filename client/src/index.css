@@ -88,7 +88,7 @@ pre {
     color: rgb(232, 231, 231);
     white-space: pre-wrap;
     margin-bottom: 0.5rem;
-    overflow: scroll
+    overflow: auto
 }
 
 
