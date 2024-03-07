@@ -48,6 +48,13 @@ export default function Header() {
     navigate(`/search?${searchQuery}`);
   };
 
+  const handleSearchButtonClick = () => {
+    if (window.innerWidth < 640) {
+      // Perform search redirection only for small devices
+      navigate(`/search?searchTerm=${searchTerm}`);
+    }
+  };
+
   return (
     <Navbar className="border-b-2">
       <Link to="/">
@@ -67,11 +74,16 @@ export default function Header() {
           type="text"
           placeholder="Search..."
           rightIcon={AiOutlineSearch}
-          className="hidden lg:inline"
+          className="hidden sm:inline"
         ></TextInput>
       </form>
 
-      <Button className="w-12 h-10 lg:hidden" color="gray" pill>
+      <Button
+        className="w-12 h-10 sm:hidden"
+        onClick={handleSearchButtonClick}
+        color="gray"
+        pill
+      >
         <AiOutlineSearch />
       </Button>
 
