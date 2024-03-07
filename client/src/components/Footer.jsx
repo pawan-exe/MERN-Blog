@@ -18,7 +18,7 @@ export default function FooterCom() {
             <Link to="/">
               <img
                 className="w-32 h-18  rounded-md"
-                src="./src/assets/logo.png"
+                src="https://i.imgur.com/ryQhcXz.png"
                 alt="logo"
               />
             </Link>

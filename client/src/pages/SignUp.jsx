@@ -47,7 +47,7 @@ export default function SignUp() {
           <Link to="/">
             <img
               className="w-36 h-14 md:w-56 md:h-20 rounded-md"
-              src="./src/assets/logo.png"
+              src="https://i.imgur.com/ryQhcXz.png"
               alt="logo"
             />
           </Link>

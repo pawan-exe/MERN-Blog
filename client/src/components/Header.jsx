@@ -53,7 +53,7 @@ export default function Header() {
       <Link to="/">
         <img
           className="w-20 h-9 sm:w-28 sm:h-11 rounded-md"
-          src="./src/assets/logo.png"
+          src="https://i.imgur.com/ryQhcXz.png"
           alt="logo"
         />
       </Link>
