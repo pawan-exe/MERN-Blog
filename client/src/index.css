@@ -38,7 +38,13 @@ body {
 .post-content h2 {
     font-size: 1.4rem !important;
     font-family: sans-serif !important;
-    margin: 1.5rem 0;
+    margin: 1.2rem 0;
+}
+
+.post-content h3 {
+    font-size: 1.2rem !important;
+    font-family: sans-serif !important;
+    margin: 0.5rem 0;
 }
 
 .post-content a {
@@ -48,6 +54,28 @@ body {
 
 .dark .post-content a {
     color: #00FFFF !important;
+}
+
+.dark .post-content span {
+    color: #E5E7EB !important;
+}
+
+.dark .post-content code {
+    color: #E5E7EB !important;
+}
+
+.dark .post-content strong {
+    color: #E5E7EB !important;
+}
+
+.post-content ul {
+    display: block;
+    list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1 em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 40px;
 }
 
 pre {

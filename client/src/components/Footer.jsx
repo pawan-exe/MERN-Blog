@@ -54,7 +54,7 @@ export default function FooterCom() {
                   Github
                 </Footer.Link>
                 <Footer.Link
-                  href="https://www.linkedin.com/in/pawankumar-gupta-59a61b247/"
+                  href="https://www.linkedin.com/in/pawan-gupta-59a61b247/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -100,7 +100,7 @@ export default function FooterCom() {
               icon={BsGithub}
             />
             <Footer.Icon
-              href="https://www.linkedin.com/in/pawankumar-gupta-59a61b247"
+              href="https://www.linkedin.com/in/pawan-gupta-59a61b247/"
               target="_blank"
               icon={BsLinkedin}
             />
