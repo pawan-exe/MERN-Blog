@@ -82,11 +82,3 @@ Welcome to Pawan's Blog. This project is a Full Stack web application built usin
     <td><img src="https://i.imgur.com/jdwUAZj.png"  /></td>
   </tr>
 </table>
-
-
-<h2>📬 Contact</h2>
-
-If you want to contact me, you can reach me through below handles.
-
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/pawan-gupta-59a61b247/)
-
